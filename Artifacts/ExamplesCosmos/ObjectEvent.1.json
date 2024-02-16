@@ -1,0 +1,33 @@
+{
+  "Type": "ObjectEvent",
+  "EventTime": "2005-04-03T20:33:31.116-06:00",
+  "EventTimeZoneOffset": "-06:00",
+  "RecordTime": "2024-02-16T20:03:00Z",
+  "Epcs": [
+    {
+      "RawValue": "urn:epc:id:sgtin:0614141.107346.2017",
+      "Urn": "urn:epc:id:sgtin:0614141.107346.2017",
+      "DigitalLink": "https://id.gs1.org/01/10614141073464/21/2017",
+      "Type": "List"
+    },
+    {
+      "RawValue": "urn:epc:id:sgtin:0614141.107346.2018",
+      "Urn": "urn:epc:id:sgtin:0614141.107346.2018",
+      "DigitalLink": "https://id.gs1.org/01/10614141073464/21/2018",
+      "Type": "List"
+    }
+  ],
+  "BusinessStep": "shipping",
+  "Disposition": "in_transit",
+  "ReadPoint": {
+    "RawValue": "urn:epc:id:sgln:0614141.07346.1234",
+    "Urn": "urn:epc:id:sgln:0614141.07346.1234",
+    "DigitalLink": "https://id.gs1.org/414/0614141073467/254/1234"
+  },
+  "BusinessTransactions": [
+    {
+      "Type": "urn:epcglobal:cbv:btt:po",
+      "Values": "http://transaction.acme.com/po/12345678"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Type": "ObjectEvent",
+  "EventTime": "2005-04-03T20:33:31.116-06:00",
+  "EventTimeZoneOffset": "-06:00",
+  "RecordTime": "2024-02-16T20:03:00Z",
+  "Epcs": [
+    {
+      "RawValue": "urn:epc:id:sgtin:0614141.107346.2018",
+      "Urn": "urn:epc:id:sgtin:0614141.107346.2018",
+      "DigitalLink": "https://id.gs1.org/01/10614141073464/21/2018",
+      "Type": "List"
+    }
+  ],
+  "BusinessStep": "receiving",
+  "Disposition": "in_progress",
+  "ReadPoint": {
+    "RawValue": "urn:epc:id:sgln:0012345.11111.400",
+    "Urn": "urn:epc:id:sgln:0012345.11111.400",
+    "DigitalLink": "https://id.gs1.org/414/0012345111112/254/400"
+  },
+  "BusinessLocation": {
+    "RawValue": "urn:epc:id:sgln:0012345.11111.0",
+    "Urn": "urn:epc:id:sgln:0012345.11111.0",
+    "DigitalLink": "https://id.gs1.org/414/0012345111112"
+  },
+  "BusinessTransactions": [
+    {
+      "Type": "urn:epcglobal:cbv:btt:po",
+      "Values": "http://transaction.acme.com/po/12345678"
+    },
+    {
+      "Type": "urn:epcglobal:cbv:btt:desadv",
+      "Values": "urn:epcglobal:cbv:bt:0614141073467:1152"
+    }
+  ],
+  "CustomFields": [
+    {
+      "Id": 1,
+      "ParentId": null,
+      "Name": "myField",
+      "Namespace": "http://ns.example.com/epcis",
+      "Value": "Example of a vendor/user extension"
+    }
+  ]
+}
